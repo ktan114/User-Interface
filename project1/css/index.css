@@ -60,200 +60,87 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-/* start of code: Challenge 1
-
-link {
-	right: 0;
-}
-
-.logo {
-	display: inline-block;
-	align-content: right;
-}
-li{
-	display: inline-block;
-}
-a {
-	color: grey;
-	text-decoration: none;
-	display: inline-block;
-	margin: 50px 50px 50px 80px;
-}
-
-.cta-text{
-	margin-top: 100px;
-	font-size: 50px;
-	display: inline-block; 
-}
-
-.cta .img{
-	display: inline-block;
-}
-
-.contact{
-	margin: 40px;
-}
-
-.line {
-	border: 1px grey solid;
-	margin: 45px;
-}
-
-.spaces{
-	border: 5px white solid;
-}
-
-.top-content{
-	margin: 20px;
-	display: inline-block;
-}
-
-.main-content .top-content .text-content p {
-	display: inline-block;
-	height: 100px;
-	width: 400px;
-}
-
-.middle{
-	display: block;
-	margin: auto;
-	text-align: center;
-}
-
-.bottom-content{
-	margin: 40px;
-}
-.main-content .bottom-content .text-content p{
-	display: inline-block;
-	height: 100px;
-	width: 400px;
-}
-
-footer{
-	margin-top: 5px;
-	margin-left: 40px;
-} */
-
-
-
-
-
-/* Challenge 2 */
-
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
+/* Header */
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	/* border: 2px red solid; */
+	margin-left: 230px;	
 }
 
-ul {
-	width: 1200px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+header nav a {
+	margin-right: 80px;
+	text-decoration: none;
+	color: grey;
 }
 
-a {
- 	color: grey;
- 	text-decoration: none;
-}
-
+/* Call-To-Action */
 .cta {
-	
-	width: 1250px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	/* border: 2px red solid;  */
-	font-size: 50px;
-	margin: 100px;
+	display: inline-block;
+	margin-top: 40px;
 }
 
-.cta-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 800px;
-	font-size: 100px;
-	/* border: 2px red solid; */
+.cta .cta-text {
+	display: inline-block;
+	font-size: 60px;
+	margin-left: 400px;
+	vertical-align: top;
+	margin-top: 60px;
+	margin-right: 150px;
 	text-align: center;
-	background-color: white;
 }
 
-.button {
-	height: 30px;
-	width: 150px;
-	border: 1px black solid;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+/* Main Content */
 
-}
-
-.line {
-	display: flex;
-	border: 1px grey solid;
-	width: 1350px;
-	margin: 20px;
-}
-
+/* Top Content */
 .main-content {
-	display: flex;
-	flex-direction: column;
-	width: 1400px;
-}
-
-.top-content {
-	display: flex;
+	border-top: grey 2px solid;
 	width: 1000px;
-	/* border: 2px red solid; */
+	margin: 50px 0 0 200px;
 }
 
-.text-content {
-	display: flex;
-	width: 450px;
-	margin: 10px;
-	flex-direction: column;
-	/* border: 2px red solid; */
+.main-content .top-content {
+	margin: 50px auto;
 }
 
-.middle-img {
-	/* border: 2px red solid; */
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 490px;
+	margin-right: 5px;
+}
+
+/* Middle Image */
+
+.main-content .middle-img {
 	width: 1000px;
-	display: flex;
-	margin: 10px;
 }
 
-.bottom-content {
-	display: flex;
+/* Bottom Content */
+.main-content .bottom-content {
+	margin: 50px auto;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+}
+
+/* Contact */
+.contact {
+	border-top: grey 2px solid;
 	width: 1000px;
-	/* border: 2px red solid; */
+	margin-left: 200px;
+	padding-top: 20px;
 }
 
-.bottom-content .text-content {
-	display: flex;
-	height: 100px;
-	width: 280px;
-	margin-top: 10px;
-	flex-direction: column;
+.contact p {
+	margin-top: 20px;
 }
 
-.contact { 
-	display: flex;
-	flex-direction: column;
-	width: 1400px;
+/* Footer */
+footer {
+	width: 1000px;
+	margin: 20px 0 0 200px;
 }
 
-.spaces {
-	border: 5px white solid;
-}
